@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Rubik+Moonrocks&display=swap');
+/**Font**/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Rubik Moonrocks', cursive;
+    background: #2a375e;
+}
+header{
+    height: 60px;
+    font-size: 50px;
+    text-align: center;
+    background: #CCC;
+    border-radius: 50px;
+}
+h1{
+    font-size: 60px;
+}
+.count{
+    font-size: 30px;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.counter{
+    width: 40rem;
+    border: 1px solid black;
+    padding: 1rem;
+    background: #18213d;
+    color: #ccc;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 8px 10px 10px #000;
+}
+.click{
+    background: #0c366d;
+    border: none;
+    padding: 0 20px;
+    height: 60px;
+    margin-top: 20px;
+    justify-content: space-between;
+    margin-left: 10px;
+    font-size: 20px;
+    box-shadow: 4px 8px 8px #000;
+    outline: none;
+    transition: 1s;
+    border-radius: 50px;
+}
+.click:hover{
+    background: #1f0e2e;
+    color: #ccc;
+    cursor: pointer;
+}
+.reset{
+    background: #0c4499;
+    border: none;
+    padding: 0 20px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+    box-shadow: 4px 8px 8px #000;
+    outline: none;
+    transition: 1s;
+    border-radius: 50px;
+}
+.reset:hover{
+    background: #1f0e2e;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.sub{
+    background: #630924;
+    border: none;
+    padding: 0 20px;
+    height: 60px;
+    margin-top: 20px;
+    justify-content: space-between;
+    margin-left: 10px;
+    font-size: 20px;
+    box-shadow: 4px 8px 8px #000;
+    outline: none;
+    transition: 1s;
+    border-radius: 50px;
+}
+.sub:hover{
+    background: #1f0e2e;
+    color: #ccc;
+    cursor: pointer;
+}
+
+/**Custom ScrollBar**/
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-thumb{
+    background:linear-gradient(transparent,#131238 );
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background:linear-gradient(transparent,#107a7a );
+
+}
